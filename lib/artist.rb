@@ -38,7 +38,7 @@ class Artist
   end
   
   def print_songs(artist)
-    
+    puts artist.song
   end
   
 end
