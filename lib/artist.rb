@@ -32,26 +32,26 @@ class Artist
   end
   
   def self.create
-    song = self.new
-    song.save
-    song
+    artist = self.new
+    artist.save
+    artist
   end
   
   def self.new_by_name(name)
-    song = self.new
-    song.name = name
-    song
+    artist = self.new
+    artist.name = name
+    artist
   end
   
   def self.create_by_name(name)
-    song = self.create
-    song.name = name
-    song
+    artist = self.create
+    artist.name = name
+    artist
   end
   
   def self.find_by_name(name)
-    @@all.find.each do |song|
-      song.name == name
+    @@all.find.each do |artist|
+      artist.name == name
     end
   end
   
