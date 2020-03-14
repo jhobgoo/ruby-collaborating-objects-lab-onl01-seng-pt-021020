@@ -1,6 +1,6 @@
 class Song
 
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist, :filename
     
   @@all = []
     
@@ -13,7 +13,8 @@ class Song
     @@all
   end
   
-  def new_by_filename
-    song.
+  def new_by_filename(file_name)
+    Song.new = file_name
+  end
   
 end
