@@ -8,7 +8,7 @@ class Song
     @songs = []
   end
   
-  def song
+  def songs
     @song
   end
   
