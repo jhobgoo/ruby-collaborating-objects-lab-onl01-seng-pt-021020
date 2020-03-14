@@ -23,11 +23,20 @@ class Artist
     end
   end
   
+  def self.create_by_name(name)
+    artist = self.create
+    song.name = name
+    song
+  end
+  
+  def self.find_by_name(name)
+    @@all.find.each do |song|
+      song.name == name
+    end
+  end
+  
   def self.find_or_create_by_name(name)
-    if !(self.new(name))
-      self.new(name)
-    else
-      Artist.new
+    self.find_by_name(name) || self.create_by_name(name)
   end
   
 end
