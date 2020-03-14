@@ -9,7 +9,7 @@ class Song
   end
   
   def songs
-    @@all << @song
+    @@all << self
   end
   
 end
