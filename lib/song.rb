@@ -1,6 +1,6 @@
 class Song
 
-  attr_accessor :name, :artist, :filename, :artist_name
+  attr_accessor :name, :artist, :filename
     
   @@all = []
     
@@ -13,7 +13,8 @@ class Song
     @@all
   end
   
-  def artist_name
+  def artist_name=(artist)
+    
   
   def self.new_by_file_name(file_name)
     artist, song = file_name.split(" - ")
