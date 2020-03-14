@@ -11,7 +11,4 @@ class Song
     @songs
   end
   
-  def artists
-    song.new = self
-  
 end
