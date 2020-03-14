@@ -9,7 +9,7 @@ class Song
   end
   
   def songs
-    @song
+    @songs
   end
   
 end
