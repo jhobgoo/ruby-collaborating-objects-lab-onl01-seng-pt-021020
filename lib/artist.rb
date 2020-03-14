@@ -38,7 +38,8 @@ class Artist
   end
   
   def print_songs(artist)
-    song.select do |artist|
+    songs.each do |artist|
+      puts 
   end
   
 end
