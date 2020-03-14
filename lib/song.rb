@@ -19,10 +19,10 @@ class Song
   end
     
   def self.new_by_file_name(file_name)
-    artist, song = file_name.split(" - ")
-    newly_instantiated_song = self.new(song)
-    newly_instantiated_song.artist_name = artist
-    newly_instantiated_song
+    artist, song = filename.split(" - ")
+    new_song = self.new(song)
+    new_song.artist_name = artist
+    new_song
   end
   
 end
