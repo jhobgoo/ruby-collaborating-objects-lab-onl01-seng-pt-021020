@@ -6,7 +6,6 @@ class Artist
   
   def initialize(artist_name)
     @name = artist_name
-    @@all << self
   end
   
   def self.all
