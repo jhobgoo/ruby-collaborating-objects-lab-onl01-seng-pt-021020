@@ -16,5 +16,6 @@ class MP3Importer
     files.each do |file_name|
       song.new_by_filename(file_name)
     end
+  end
     
 end
