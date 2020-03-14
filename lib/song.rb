@@ -8,8 +8,8 @@ class Song
     @songs = []
   end
   
-  def songs
-    @song << self
+  def song
+    @song
   end
   
 end
