@@ -15,7 +15,6 @@ class MP3Importer
   def import
     files.each do |file_name|
       Song.new_by_file_name(file_name)
-    artist.add_song(self)
     end
   end
     
